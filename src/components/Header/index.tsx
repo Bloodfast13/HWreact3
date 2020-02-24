@@ -1,6 +1,6 @@
 import React from 'react'
 import Button from '../Button'
-import logo from './menu.svg'
+import logo from '../Img/menu.svg'
 import style from './style.module.css'
 
 const listShowed = [{
@@ -68,7 +68,7 @@ const Header: React.FC = () => {
         {isShowed && (
             <div className={style.BtnWrapper}>
                 {listShowed.map(item => (
-                    <Button href={item.href} name={item.name}/>)
+                    <Button href={item.href} name={item.name} key={item.name}/>)
                 )}
             </div>
         )}

@@ -18,7 +18,7 @@ export default class Button extends React.Component {
         return (
             e(React.Fragment, null,
                 e("button", null,
-                e("a", { className: this.props.className, href: this.props.href }, this.props.name)
+                    e("a", { className: this.props.className, href: this.props.href }, this.props.name)
                 )
             )
         )

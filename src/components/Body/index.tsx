@@ -1,6 +1,6 @@
 import React from 'react'
 import style from './style.module.css'
-import gLogo from './google_PNG19625.png'
+import gLogo from '../Img/google_PNG19625.png'
 import Input from './Input'
 
 const Body: React.FC = () => {

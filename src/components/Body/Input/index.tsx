@@ -1,8 +1,8 @@
 import React from 'react'
 import style from './styel.module.css'
-import Voice from './google-voice-search-icon-21.jpg'
-import Keyboard from './icons8-клавиатура-16.png'
-import Search from './Zoom.png'
+import Voice from '../../Img/google-voice-search-icon-21.jpg'
+import Keyboard from '../../Img/keyboard.png'
+import Search from '../../Img/Zoom.png'
 
 const Patterns = /^[A-Za-zА-Яа-яЁё\s]+$/
 const Input: React.FC = () => {
